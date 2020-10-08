@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel ="icon" type="image/png" href="./image/E-friendly.png"/>
+<title>E-friendly</title>
+<link rel="stylesheet" type="text/css" href="E_friendly.css">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+	<section class="banner" id="sec">
+	<header>
+		<a href="#" class="logo" ><i>designed by the a-team</i></a>
+		<div class="toggle" onClick="toggle()"></div>
+	</header>
+		
+		<div class="content">
+			<div class="sub">
+			</div>	    
+		</div>
+	</section>
+	<div id="navigation">
+		<ul id="menu">
+			<li><img src="./image/efr.png" id="img"></li>
+			<li><a href="#">Giới thiệu</a></li>
+			<li><a href="#">Về chúng tôi</a></li>
+			<li><a href="#">Mục tiêu</a></li>
+			<li><a href="#">Đăng ký</a></li>
+		</ul>
+		<ul class="icon-bar">
+			<li><a href="#" class="icon-bar"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+			<li><a href="#" class="icon-bar"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+			<li><a href="#" class="icon-bar"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+	function toggle(){
+		var sec = document.getElementById("sec");
+		sec.classList.toggle('active');
+	}
+	</script>
+</body>
+</html>
